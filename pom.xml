@@ -19,6 +19,7 @@
     <modules>
         <module>demo</module>
         <module>genshin</module>
+        <module>restful</module>
     </modules>
 
     <properties>

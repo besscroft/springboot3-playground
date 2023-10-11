@@ -8,6 +8,7 @@
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+
     <groupId>dev.heming.example.genshin</groupId>
     <artifactId>genshin</artifactId>
     <version>${revision}</version>
