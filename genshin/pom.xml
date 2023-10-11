@@ -8,29 +8,16 @@
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <groupId>dev.heming.example.demo</groupId>
-    <artifactId>demo</artifactId>
+    <groupId>dev.heming.example.genshin</groupId>
+    <artifactId>genshin</artifactId>
     <version>${revision}</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>genshin</name>
+    <description>genshin</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <!-- 排除 tomcat 依赖 -->
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <!-- 引入 undertow 依赖 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-undertow</artifactId>
         </dependency>
     </dependencies>
 
