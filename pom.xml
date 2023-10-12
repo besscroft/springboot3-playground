@@ -20,6 +20,7 @@
         <module>demo</module>
         <module>genshin</module>
         <module>restful</module>
+        <module>jpa</module>
     </modules>
 
     <properties>
